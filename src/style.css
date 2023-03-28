@@ -41,9 +41,14 @@ img {
 .back {
   background-color: var(--secondary-colors);
 }
+.container-s {
+  margin-left: 70px;
+  margin-right: 70px;
+}
 .container-fluid div {
   border-radius: 8px;
 }
+
 .weather-app {
   margin-top: 30px;
 }
