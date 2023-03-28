@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is Piera Bellelli Web developer Portfolio"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,13 +28,118 @@
     <title>👩‍💻Piera Bellelli</title>
   </head>
   <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><strong>PB</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <h2>👩‍💻 Hello! I am</h2>
     <h1>Piera Bellelli</h1>
     <h4>Front developer to be❣️, Italy</h4>
 
     <div class="links">
-      <a href="about.html#email" id="contact">Contact Me </a>
-      <a href="about.html" id="about">About me</a>
+      <a href="about.html#email" id="contact" title="Piera Bellelli contact"
+        >Contact Me
+      </a>
+      <a href="about.html" id="about" title="Piera Bellelli about">About me</a>
+    </div>
+    <div class="container-fluid text-center p-1 ms-3 me-3">
+      <div class="row">
+        <div class="col-sm-6 back mt-3">
+          <img
+            src="/img/project1.png"
+            alt="pilates website"
+            class="fluid rounded"
+            width="300"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h2 class="text-center">Pilates Website</h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iste
+            consectetur odio dolore esse quisquam vero quis fugit accusantium et
+            velit, autem, impedit dolor veritatis nemo temporibus ratione
+            adipisci fugiat!
+          </p>
+          <div class="links">
+            <a href="#" id="about" title="Visit Pilates website"
+              >Go to the website</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-center p-1 ms-3 me-3">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="text-center">Weather App</h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iste
+            consectetur odio dolore esse quisquam vero quis fugit accusantium et
+            velit, autem, impedit dolor veritatis nemo temporibus ratione
+            adipisci fugiat!
+          </p>
+          <div class="links">
+            <a href="#" id="about" title="Weather App">Go to the app</a>
+          </div>
+        </div>
+        <div class="col-sm-6 back mt-3">
+          <img
+            src="/img/weather-app.png"
+            alt="weather app"
+            class="fluid rounded"
+            width="300"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-center p-1 ms-3 me-3">
+      <div class="row">
+        <div class="col-sm-6 back mt-3">
+          <img
+            src="img/world-clock.png"
+            alt="world clock"
+            class="fluid rounded"
+            width="300"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h2 class="text-center">World Clock app</h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iste
+            consectetur odio dolore esse quisquam vero quis fugit accusantium et
+            velit, autem, impedit dolor veritatis nemo temporibus ratione
+            adipisci fugiat!
+          </p>
+          <div class="links">
+            <a href="#" id="about" title="World Clock app">Go to the app</a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
